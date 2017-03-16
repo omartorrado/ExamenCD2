@@ -7,7 +7,6 @@ package examencd2;
 
 
 /**
- *Controla el funcionamiento de la alarma
  * Controls the functionality of the alarma
  * @author otorradomiguez
  */
@@ -19,7 +18,6 @@ public class Alarma{
     private int minutoAlarma=29;
 
    /**
-    * Activa o desactiva la alarma dependiendo de su valor booleano
     * Changes the boolean estate activaAlarma each time its called
     */
     public void setAlarma(){
@@ -32,8 +30,6 @@ public class Alarma{
     }
     
     /**
-     * Se usa para configurar la hora. Cada vez que se usa la incrementa en 1
-     * y si llega a 24h la vuelve a poner a 0
      * Sets the hour for the alarma. Each time its called increases the hour by 1
      * if it reaches 24, resets it to 0
      */
@@ -45,8 +41,6 @@ public class Alarma{
     }
     
     /**
-     * Se usa para configurar los minutos. Cada vez que se usa los incrementa
-     * en 1 y si llega a 60 los vuelve a poner a 0
      * Sets the minutes for the alarm. Each time its called increases the minutes 
      * by 1, and reset to 0 when it reaches 60
      */
@@ -58,7 +52,6 @@ public class Alarma{
     }
     
     /**
-     * Muestra por consola la hora(HH:MM) para la que esta configurada la alarma
      * Shows the time the alarm is set for in the format (HH:MM)
      */
     public void mostrarHora(){
@@ -79,7 +72,6 @@ public class Alarma{
     }
     
     /**
-     * Muestra si la alarma esta activada o desactivada
      * Shows if the alarma is active or not
      */
     public void mostrarAlarma(){
